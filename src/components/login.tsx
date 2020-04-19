@@ -53,7 +53,7 @@ export function Login({ onLogin }: LoginProps) {
 
       <div>
         <button type="submit" className={isLoading ? 'RNIW_btn RNIW_saving' : 'RNIW_btn'}>
-          Log in
+          Login
         </button>
         {msg && <pre style={{ background: 'salmon', padding: 10 }}>{msg}</pre>}
       </div>
